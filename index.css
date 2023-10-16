@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #333233;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.addpoints {
+    background-color: #333233;
+    border-color: #b50423;
+    color: #b50423;
+    border-width: 2px;    
+    border-radius: 5px;
+    border-style: solid;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+  
+}
+
+                
+#home-score, #guest-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #e0072d;
+    font-size: 50px;
+    height: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 20px;                                        
+}
+
+#startgame {
+    background-color: #1e1e1e;
+    border-color: #b50423;
+    color: #b50423;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: solid;
+    height: 35px;
+    width: 120px;
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    margin: 0 auto; /* Center horizontally */
+    display: block; /* Makes the button a block element */
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#startgame:hover {
+    background-color: #b50423;
+    color: #333233;
